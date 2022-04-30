@@ -1,1 +1,31 @@
 // Specific CSS for your home-page
+.point {
+  width: 400px;
+  height: 250px;
+  background-color: white;
+  i {
+    color: white;
+    padding: 20px;
+    background-color: $color-secondary;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+  }
+
+  h4 {
+    color: $color-secondary;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  padding: 25px;
+  text-align: center;
+}
+
+.avantage {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

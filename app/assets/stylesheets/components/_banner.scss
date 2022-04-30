@@ -1,0 +1,51 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: $color-secondary;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  color: $color-secondary;
+  opacity: .8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .image-banner {
+   img {
+     width: 600px;
+     padding-left: 30px;
+   }
+ }
+
+ .text-banner {
+   padding-left: 100px;
+   p {
+     margin-bottom: 30px;
+   }
+ }
+
+ .button-banner {
+   background-color: $color-secondary;
+   color: white;
+   padding: 12px 8px;
+   border-radius: 8px;
+   text-decoration: none;
+   &:hover{
+     background-color: white;
+     color: $color-secondary;
+     text-decoration: none;
+   }
+ }
